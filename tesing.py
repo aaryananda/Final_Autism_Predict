@@ -85,8 +85,8 @@ def pretty_print_autism_info(autism_predictions):
 
 def test_multimodal():
     try:
-        video_path = "C:/Users/aarya/autism/VCAB/videos/Arm_Flap_0.mp4"
-        output_path = "C:/Users/aarya/autism/VCAB/output/Arm_Flap_em.mp4"
+        video_path = "C:/Users/aarya/autism/VCAB/videos/spinning_girl.mp4"
+        output_path = "C:/Users/aarya/autism/VCAB/output/sg.mp4"
         os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
         print("Instantiating model...")
